@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+/* adding google robot font only for fist paragrapgh */
+.firstParagraph{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+/* adding web based support font family */
+.secondpara{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+/* adding normal color */
+.thirdpara{
+    color: red;
+    background-color: black;
+}
+/* adding rgb color */
+/* alpha is used for color intesity */
+.fourthpara{
+color: rgba(90, 159, 223,1);
+}
