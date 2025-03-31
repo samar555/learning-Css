@@ -1,0 +1,55 @@
+div {
+    display: inline-block;
+}
+.container{
+    /* position: relative; */
+    height: 100000px;
+    border: solid black 10px;
+}
+.box1 {
+    height: 50px;
+    /* if position is relative then white spaces not filled add on window size level  */
+    position: relative;
+    top: 40px; 
+    width: 100px;
+    border: solid green 2px;
+}
+.box2 {
+
+    
+    height: 50px;
+    width: 100px;
+    border: solid red 2px;
+}
+
+.box2:hover {
+    /* if position is relative then white spaces filled add on neared parent  */ 
+   
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    width: 100px;
+    border: solid red 2px;
+}
+
+.box3 {
+    /* fixed at window screen level */
+    position: fixed;
+    top: 40px;
+    height: 50px;
+    width: 100px;
+    border: solid yellow 2px;
+}
+
+.box4 {
+     /* fixed at parent height  screen level */
+    position: sticky;
+    top: 30px;
+    height: 50px;
+    width: 100px;
+    border: solid rgb(224, 15, 50) 2px;
+}
+.container2{
+    height: 40000px;
+background-color: aqua;
+}
