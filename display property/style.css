@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* span is a inline element so the width will be the content size and all inline element can convert into block element and wise versa and if we add maring padding to the inline element then it add to the :horizontal not vertical */
+span {
+  /* display: block;   
+   can convert to the block elememt and also add margin and padding in all side
+  */
+  /* added only left and right side */
+  margin: 20px; 
+  /* added only left and right side */
+  padding: 10 px;
+}
+
+div{
+    /* if we convert its disply to inline it behave like inline element cant add add side margin and padding and width will be content size */
+    /* display: inline; */
+
+
+
+/* also we have display :inline-block 
+ which have inline property like width
+  will be content size and block propery
+   is we can add margin and padding*/
+
+   
+ /* added all side */
+  margin: 20px; 
+   /* added all side */
+  padding: 10 px;
+}
+
