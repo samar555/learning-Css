@@ -1,0 +1,19 @@
+/* box model nothing but its a learning of content,margin,padding,border */
+
+
+
+.box-model-padding {
+/* padding 10 px from every side just above the content */
+padding: 10px;
+border: solid green 2px;
+border-radius: 5px;
+
+}
+.box-model-margin {
+    /* margin 10 px from every side just above the content */
+    margin: 10px;
+    padding: 10px;
+    border: solid red 2px;
+    border-radius: 5px;
+    
+    }
