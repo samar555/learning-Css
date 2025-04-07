@@ -1,0 +1,11 @@
+img {
+    float: right; 
+   /* float the element right left as requirement */
+    /* background-color: black;  */
+   /* width: 20px; */
+}
+p{
+
+    /* this means in right we have to clear it  */
+    clear: right;
+}
